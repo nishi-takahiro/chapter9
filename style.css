@@ -64,11 +64,26 @@ footer{
   background-color: #AAAAAA;
 }
 
+@media screen and (max-width: 1024px){
+ main{
+   width: 100%;
+ }
+ 
+  header{
+    width: 100%;
+}
+
+  fotter{
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 768px){
   header{
     width: 100%;
 }
-}
+
 
 main{
   width: 100%;
@@ -97,4 +112,5 @@ main{
 
 footer{
   width: 100%;
+}
 }
